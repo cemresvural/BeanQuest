@@ -2,16 +2,8 @@
 BeanQuest : Machine Learning for Dry Bean Analysis
 
 
-Kuru Fasulye Veri Seti, tarımsal araştırma ve ürün sınıflandırması alanında yaygın olarak kullanılan bir kayaslama veri setidir. Bu tezde, kuru fasulye çeşitlerinin morfolojik özelliklerine göre sınıflandırılması için çeşitli makine öğrenme tekniklerinin uygulanmasını araştırıyoruz. Bu araştırmanın amacı, kuru fasulye türlerinin tanımlanmasına ve sınıflandırılmasına yardımcı olacak doğru ve verimli sınıflandırma modelleri geliştirmek, mahsul yönetimi ve tarımsal uygulamaları iyileştirilmesine katkıda bulunmaktır.
+The Dry Bean Dataset is a widely used rocking dataset in the field of agricultural research and product classification. In this thesis, we explore the application of various machine learning techniques to classify dried bean varieties according to their morphological characteristics. The aim of this research is to develop accurate and efficient classification models that will help identify and classify dried bean species, and contribute to improving crop management and agricultural practices.
 
-Özellik dağılımları, korelasyonlar ve sınıf dengesizlikleri dahil olmak üzere veri kümesinin özelliklerine ilişkin içgörüler elde etmek için keşif amaçlı bir veri analizi gerçekleştirerek başlıyoruz. Ardından, her kuru fasulye türünün adil bir şekilde temsil edilmesini sağlamak için eksik değerleri ele alarak, özellikleri normalleştirerek ve sınıf dağılımlarını dengeleyerek veri kümesini önceden işleriz.
+We begin by performing an exploratory data analysis to gain insights into the characteristics of the dataset, including feature distributions, correlations, and class imbalances. Next, we preprocess the dataset by addressing missing values, normalizing features, and balancing class distributions to ensure a fair representation of each type of bean.
 
-Kuru fasulye çeşitlerini sınıflandırmak için karar ağaçları, rastgele ormanlar, destek vektör
-makineleri dahil olmak üzere çeşitli makine öğrenme algoritmalarını değerlendiriyoruz. Bu
-algoritmaları performansını doğruluk, kesinlik, hatırlama ve F1 puanı açından
-karşılaştırmak için kapsamlı deneyler yapıyoruz.
-Deneysel sonuçlar, rastgele orman algoritmasının kuru fasulye sınıflandırma görevinde
- %90'nın üzerinde bir doğruluk elde ederek diğer modellerden daha iyi performans
-gösterdiğini göstermektedir. Kuru fasulye sınıflandırması için ayırt edici özelliklere ilişkin
-içgörüler elde etmek için özelliğin önemini analiz ederek ve karar sınırlarını keşfederek
-modelin performansını daha derinlemesine inceliyoruz.
+We evaluate various machine learning algorithms, including decision trees, random forests, support vector machines, to classify dried bean varieties. We conduct extensive experiments to compare the performance of these algorithms in terms of accuracy, precision, recall and F1 score. Experimental results show that the random forest algorithm outperforms other models in the dry bean classification task, achieving an accuracy of over 90%. We delve deeper into the performance of the model by analyzing the significance of the feature and exploring the decision limits to gain insights into the distinctive features for the dry bean classification.
